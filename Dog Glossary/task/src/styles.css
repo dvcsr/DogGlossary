@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #25283D;
+}
+h1 {
+    font-size: 40px;
+    color: darkgoldenrod;
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: bisque;
+    color: saddlebrown;
+    margin: 1px 1px 15px 1px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgba(139, 69, 19, 0.1);
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+img {
+    max-width: 90vw;
+    max-height: 90vh;
+    margin: 10px 5px 5px 5px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+}
+
+#input-breed {
+    margin: 0 5px 0 5px;
+    height: 40px;
+    width: 260px;
+    border: 2px solid coral;
+    border-radius: 15px;
+}
+
+#content {
+    padding: 5px 0 5px 0;
+    background-color: rgba(0, 128, 0, 0.1);
+    max-width: 90vw;
+    min-height: 80vh;
+    margin: auto;
+    text-align: center;
+    border: 5px white;
+    border-radius: 5px;
+}
+
+
+ol, ul {
+    display: table;
+    margin: auto;
+    list-style-position: inside;
+    text-align: left;
+    left: 50vw;
+}
+
+#button-show-sub-breed {
+    margin-right: 190px
+}
